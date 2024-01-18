@@ -1,4 +1,14 @@
 {
+  "name": "happy",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/39JWKuVR5c0NztX4IeExIr/H(app)y",
+  "main": "",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }

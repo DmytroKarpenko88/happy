@@ -444,6 +444,10 @@ video {
   display: none;
 }
 
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -549,19 +553,153 @@ video {
   margin-right: auto;
 }
 
-.bg-current {
-  background-color: currentColor;
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
-.underline {
-  text-decoration-line: underline;
+.mt-\[18px\] {
+  margin-top: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-\[1168px\] {
+  width: 1168px;
+}
+
+.w-\[1200px\] {
+  width: 1200px;
+}
+
+.w-\[172px\] {
+  width: 172px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[420px\] {
+  width: 420px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.bg-bgBTN {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-\[78px\] {
+  padding-left: 78px;
+  padding-right: 78px;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-\[45px\] {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.text-\[54px\] {
+  font-size: 54px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.leading-110 {
+  line-height: 110%;
+}
+
+.text-666 {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-bgBTN {
+  --tw-text-opacity: 1;
+  color: rgb(34 34 34 / var(--tw-text-opacity));
+}
+
+.shadow-l {
+  --tw-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.15);;
+  --tw-shadow-colored: 0px 3px 15px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline {
+  outline-style: solid;
+}
+
+.outline-1 {
+  outline-width: 1px;
+}
+
+.outline-black {
+  outline-color: #000;
+}
+
+.outline-blue-500 {
+  outline-color: #3b82f6;
+}
+
+.hover\:bg-gray-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
